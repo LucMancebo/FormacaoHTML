@@ -1,0 +1,75 @@
+/* contact.css */
+.contact {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+    margin-bottom: 80px;
+}
+
+.contact h1 {
+    color: #002a54;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #002a54;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #002a54;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+/* Map */
+.map {
+    margin-top: 40px;
+}
+
+.map h2 {
+    color: #002a54;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
